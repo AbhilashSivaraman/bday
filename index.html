@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday, Paapa 💗</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Falling petals live here, populated by JS -->
+  <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+  <!-- Confetti canvas -->
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+
+  <main>
+
+    <!-- ===================== HERO / GREETING CARD ===================== -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-heading">
+        <p class="eyebrow-script">a little something for my beloved</p>
+        <h1 class="name-title">Kutty Paapa</h1>
+      </div>
+
+      <div class="card-stage">
+        <div class="greeting-card" id="greetingCard">
+          <div class="card-inner">
+
+            <div class="card-face card-front">
+              <div class="card-front-deco">
+                <span class="deco-flower f1">✿</span>
+                <span class="deco-flower f2">❀</span>
+                <span class="deco-flower f3">✿</span>
+              </div>
+              <div class="wax-seal">💌</div>
+              <p class="card-front-text">For my Paapa</p>
+              <p class="card-front-sub">(tap to open)</p>
+              <div class="pulse-ring"></div>
+            </div>
+
+            <div class="card-face card-back">
+              <div class="card-back-scroll">
+                <p class="card-greeting-top">Happy Birthday Paapuu</p>
+                <p class="card-message">
+                  I always wanted a little sister growing up. Life took its time, but it gave me you, met in a tough workplace, yet you always kept us close. Cute, empathetic, non-judgemental, never a people-pleaser, everything I dreamed a sister would be. Proud of you. Happy Birthday, cutie paapa!! 🎂💕
+                  <br><br>
+                  Scroll down, I saved a couple of my favorites of us. Open them one by one.
+                </p>
+                <p class="card-signoff">— with all my love, always</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-hint">
+        <span>our memories</span>
+        <div class="scroll-arrow">↓</div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="gallery">
+      <div class="gallery-heading">
+        <h2 class="gallery-title">Two Little Time Capsules</h2>
+        <p class="gallery-sub">A couple of my favorites. Click a card to open it.</p>
+      </div>
+
+      <div class="polaroid-grid" id="polaroidGrid">
+        <!-- 24 polaroid cards injected by script.js -->
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="site-footer">
+      <span class="footer-flower">✿</span>
+      <p>made with a very full heart, for the sister I got to pick</p>
+      <span class="footer-flower">✿</span>
+    </footer>
+
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
